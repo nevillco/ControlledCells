@@ -1,0 +1,28 @@
+PODS:
+  - Anchorage (4.2.1)
+  - Reinstate (0.1.1)
+  - Reusable (4.0.2):
+    - Reusable/Storyboard (= 4.0.2)
+    - Reusable/View (= 4.0.2)
+  - Reusable/Storyboard (4.0.2)
+  - Reusable/View (4.0.2)
+
+DEPENDENCIES:
+  - Anchorage
+  - Reinstate
+  - Reusable
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Anchorage
+    - Reinstate
+    - Reusable
+
+SPEC CHECKSUMS:
+  Anchorage: f4dbf32771115b8ef9c9cc4e55a002ad87711f48
+  Reinstate: 6a82773627cff710bbb35f6af01d80eba32a7b09
+  Reusable: 584a5629747c52e0f6a77841b400dc2643f6fa0f
+
+PODFILE CHECKSUM: 658c36dcbeb90a45adec42b52a0bce1f409b1376
+
+COCOAPODS: 1.5.0
