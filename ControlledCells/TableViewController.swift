@@ -44,16 +44,13 @@ extension TableViewController {
 
         let controller = CellViewController(indexPath: indexPath)
         addChild(controller, constrainedTo: cell.contentView)
-
         cellControllers[indexPath] = controller
+
         return cell
     }
 
     override func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        guard let existingChild = cellControllers[indexPath] else {
-            fatalError("Missing existing child \(indexPath)")
-        }
-
+        let existingChild = cellControllers[indexPath]!
         removeChild(existingChild, constrainedTo: cell.contentView)
         cellControllers[indexPath] = nil
     }

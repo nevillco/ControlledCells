@@ -11,7 +11,6 @@ import Anchorage
 class CellViewController: UIViewController {
 
     fileprivate let indexPath: IndexPath
-
     fileprivate let label = UILabel()
 
     fileprivate var labelText: String {
@@ -21,7 +20,6 @@ class CellViewController: UIViewController {
         let labelTextArray = [pathText] + Array(repeating: repeatedText, count: repeatCount)
         return labelTextArray.joined(separator: "\n")
     }
-
     fileprivate var backgroundColor: UIColor {
         let row = indexPath.row
         let color: UIColor = row % 2 == 0 ? .blue : .red
