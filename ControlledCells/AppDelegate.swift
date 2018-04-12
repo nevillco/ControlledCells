@@ -26,7 +26,9 @@ extension AppDelegate {
         let window = UIWindow()
         window.backgroundColor = .white
         window.makeKeyAndVisible()
-        window.rootViewController = UIViewController()
+        let tableVC = TableViewController()
+        let rootVC = UINavigationController(rootViewController: tableVC)
+        window.rootViewController = rootVC
         self.window = window
     }
 

@@ -10,6 +10,7 @@
 		2D2D9B8F207FC7C6001F4981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D9B8E207FC7C6001F4981 /* AppDelegate.swift */; };
 		2D2D9B91207FC7C6001F4981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2D9B90207FC7C6001F4981 /* Assets.xcassets */; };
 		2D2D9B94207FC7C6001F4981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2D9B92207FC7C6001F4981 /* LaunchScreen.storyboard */; };
+		2D2D9B9C207FC9B5001F4981 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D9B9B207FC9B5001F4981 /* TableViewController.swift */; };
 		B3F351037312000FF2E7CBD9 /* Pods_ControlledCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E08C603ABA83168C12859C /* Pods_ControlledCells.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		2D2D9B90207FC7C6001F4981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D2D9B93207FC7C6001F4981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D2D9B95207FC7C6001F4981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2D9B9B207FC9B5001F4981 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D07B93FDD6FEB5D540B1AA9F /* Pods-ControlledCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ControlledCells.release.xcconfig"; path = "Pods/Target Support Files/Pods-ControlledCells/Pods-ControlledCells.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				2D2D9B90207FC7C6001F4981 /* Assets.xcassets */,
 				2D2D9B92207FC7C6001F4981 /* LaunchScreen.storyboard */,
 				2D2D9B95207FC7C6001F4981 /* Info.plist */,
+				2D2D9B9B207FC9B5001F4981 /* TableViewController.swift */,
 			);
 			path = ControlledCells;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2D9B8F207FC7C6001F4981 /* AppDelegate.swift in Sources */,
+				2D2D9B9C207FC9B5001F4981 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
